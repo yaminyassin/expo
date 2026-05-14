@@ -21,8 +21,8 @@ public extension JavaScriptRepresentable {
     guard let jsiRuntime = value.runtime else {
       FatalError.runtimeLost()
     }
-    if let JSIRepresentableType = Self.self as? JSIRepresentable.Type {
-      return JSIRepresentableType.fromJSIValue(value.pointee, in: jsiRuntime.pointee) as! Self
+    if let jsiRepresentableType = Self.self as? JSIRepresentable.Type {
+      return jsiRepresentableType.fromJSIValue(value.pointee, in: jsiRuntime.pointee) as! Self
     }
     FatalError.unimplemented()
   }
