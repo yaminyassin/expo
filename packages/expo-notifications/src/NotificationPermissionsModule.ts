@@ -1,5 +1,5 @@
 import { PermissionStatus } from 'expo';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 
 import type {
   NativeNotificationPermissionsRequest,

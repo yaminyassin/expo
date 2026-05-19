@@ -1,5 +1,5 @@
 import { PermissionStatus, createPermissionHook, } from 'expo';
-import { CodedError, UnavailabilityError } from 'expo-modules-core';
+import { CodedError, UnavailabilityError } from 'expo';
 import ExponentImagePicker from './ExponentImagePicker';
 import { mapDeprecatedOptions } from './utils';
 function validateOptions(options) {

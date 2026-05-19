@@ -1,9 +1,5 @@
-import {
-  LegacyEventEmitter,
-  type EventSubscription,
-  CodedError,
-  UnavailabilityError,
-} from 'expo-modules-core';
+import { LegacyEventEmitter } from 'expo-modules-core';
+import { type EventSubscription, CodedError, UnavailabilityError } from 'expo';
 
 import type { Notification, NotificationBehavior } from './Notifications.types';
 import NotificationsHandlerModule from './NotificationsHandlerModule';

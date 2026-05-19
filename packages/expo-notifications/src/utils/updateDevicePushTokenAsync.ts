@@ -1,5 +1,5 @@
 import * as Application from 'expo-application';
-import { CodedError, Platform, UnavailabilityError } from 'expo-modules-core';
+import { CodedError, Platform, UnavailabilityError } from 'expo';
 
 import { computeNextBackoffInterval } from './backoff';
 import ServerRegistrationModule from '../ServerRegistrationModule';

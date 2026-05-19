@@ -1,5 +1,5 @@
 import { isRunningInExpoGo } from 'expo';
-import { Platform, UnavailabilityError } from 'expo-modules-core';
+import { Platform, UnavailabilityError } from 'expo';
 import * as TaskManager from 'expo-task-manager';
 import { BackgroundFetchStatus } from './BackgroundFetch.types';
 import ExpoBackgroundFetch from './ExpoBackgroundFetch';

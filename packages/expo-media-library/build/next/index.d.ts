@@ -1,5 +1,4 @@
-import { type PermissionHookOptions, type PermissionResponse } from 'expo';
-import { type EventSubscription } from 'expo-modules-core';
+import { type EventSubscription, type PermissionHookOptions, type PermissionResponse } from 'expo';
 import ExpoMediaLibraryNext from './ExpoMediaLibraryNext';
 import type { MediaLibraryAssetsChangeEvent } from './MediaLibraryNext.types';
 import type { GranularPermission } from './types/GranularPermission';

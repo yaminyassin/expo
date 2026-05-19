@@ -1,5 +1,4 @@
-import type { PermissionResponse } from 'expo';
-import { NativeModule, requireNativeModule } from 'expo-modules-core';
+import { NativeModule, requireNativeModule, type PermissionResponse } from 'expo';
 
 import type { GranularPermission, MediaLibraryAssetsChangeEvent } from './MediaLibraryNext.types';
 import { Album } from './types/Album';

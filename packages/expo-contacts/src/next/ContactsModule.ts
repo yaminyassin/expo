@@ -3,8 +3,8 @@ import {
   Platform,
   UnavailabilityError,
   requireNativeModule,
-} from 'expo-modules-core';
-import type { EventSubscription } from 'expo-modules-core';
+} from 'expo';
+import type { EventSubscription } from 'expo';
 
 import type { Contact as ContactType } from './types/Contact';
 import type { Container as ContainerType } from './types/Container';

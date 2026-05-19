@@ -1,7 +1,7 @@
 import './BeforePIXI';
 
 import { Asset } from 'expo-asset';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 import * as PIXI from 'pixi.js';
 import { Dimensions } from 'react-native';
 

@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Slider from '@react-native-community/slider';
 import * as AppleAuthentication from 'expo-apple-authentication';
-import { type EventSubscription } from 'expo-modules-core';
+import { type EventSubscription } from 'expo';
 import React from 'react';
 import { Alert, Button, ScrollView, StyleSheet, Text, View } from 'react-native';
 

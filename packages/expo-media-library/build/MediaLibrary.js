@@ -1,5 +1,4 @@
-import { createPermissionHook } from 'expo';
-import { UnavailabilityError } from 'expo-modules-core';
+import { createPermissionHook, UnavailabilityError, } from 'expo';
 import { Platform } from 'react-native';
 import MediaLibrary from './ExpoMediaLibrary';
 const isExpoGo = typeof expo !== 'undefined' && globalThis.expo?.modules?.ExpoGo;
@@ -8,9 +7,8 @@ if (isExpoGo && !loggedExpoGoWarning) {
     console.warn('Due to changes in Androids permission requirements, Expo Go can no longer provide full access to the media library. To test the full functionality of this module, you can create a development build. https://docs.expo.dev/develop/development-builds/create-a-build');
     loggedExpoGoWarning = true;
 }
-// TODO(@kitten): Remove re-exports from EMC
 export { PermissionStatus, } from 'expo';
-export {} from 'expo-modules-core';
+export {} from 'expo';
 function arrayize(item) {
     if (Array.isArray(item)) {
         return item;

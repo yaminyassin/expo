@@ -2,7 +2,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import * as Contacts from 'expo-contacts';
 import { Directory, File, Paths } from 'expo-file-system';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 import React from 'react';
 import { RefreshControl, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 

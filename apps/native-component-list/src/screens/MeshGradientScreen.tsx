@@ -1,5 +1,5 @@
 import { MeshGradientView } from 'expo-mesh-gradient';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 import { useCallback, useState } from 'react';
 import { Dimensions, StyleSheet, Text, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';

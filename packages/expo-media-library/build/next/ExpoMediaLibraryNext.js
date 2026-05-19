@@ -1,4 +1,4 @@
-import { NativeModule, requireNativeModule } from 'expo-modules-core';
+import { NativeModule, requireNativeModule } from 'expo';
 import { Album } from './types/Album';
 import { Asset } from './types/Asset';
 import { Query } from './types/Query';

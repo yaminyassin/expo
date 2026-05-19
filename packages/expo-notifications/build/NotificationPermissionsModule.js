@@ -1,5 +1,5 @@
 import { PermissionStatus } from 'expo';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 function convertPermissionStatus(status) {
     switch (status) {
         case 'granted':

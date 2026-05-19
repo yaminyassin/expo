@@ -1,5 +1,5 @@
 import { type PermissionResponse, createPermissionHook } from 'expo';
-import { type EventSubscription, UnavailabilityError } from 'expo-modules-core';
+import { type EventSubscription, UnavailabilityError } from 'expo';
 import { Platform } from 'react-native';
 
 import ExpoBrightness from './ExpoBrightness';
@@ -29,7 +29,6 @@ export type BrightnessEvent = {
   brightness: number;
 };
 
-// TODO(@kitten): Remove re-exports from EMC
 export {
   type PermissionExpiration,
   type PermissionHookOptions,

@@ -1,5 +1,5 @@
 import { isRunningInExpoGo } from 'expo';
-import { NativeModule, requireNativeModule } from 'expo-modules-core';
+import { NativeModule, requireNativeModule } from 'expo';
 import ExpoGoCalendarNextStub from './ExpoGoCalendarNextStub';
 export default isRunningInExpoGo()
     ? ExpoGoCalendarNextStub

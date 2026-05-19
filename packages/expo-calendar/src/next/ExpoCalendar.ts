@@ -1,5 +1,5 @@
 import { isRunningInExpoGo, type PermissionResponse } from 'expo';
-import { NativeModule, requireNativeModule } from 'expo-modules-core';
+import { NativeModule, requireNativeModule } from 'expo';
 import type { ProcessedColorValue } from 'react-native';
 
 import type {

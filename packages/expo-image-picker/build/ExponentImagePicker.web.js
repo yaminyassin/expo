@@ -1,5 +1,5 @@
 import { PermissionStatus } from 'expo';
-import { Platform } from 'expo-modules-core';
+import { Platform } from 'expo';
 import { CameraType } from './ImagePicker.types';
 import { parseMediaTypes } from './utils';
 const MediaTypeInput = {
