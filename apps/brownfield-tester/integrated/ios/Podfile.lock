@@ -1,10 +1,10 @@
 PODS:
-  - EXConstants (56.0.11):
+  - EXConstants (56.0.12):
     - ExpoModulesCore
   - EXJSONUtils (56.0.0)
-  - EXManifests (56.0.3):
+  - EXManifests (56.0.4):
     - ExpoModulesCore
-  - Expo (56.0.0-preview.12):
+  - Expo (56.0.0-preview.13):
     - ExpoModulesCore
     - ExpoModulesJSI
     - hermes-engine
@@ -30,8 +30,8 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - expo-dev-menu (56.0.10):
-    - expo-dev-menu/Main (= 56.0.10)
+  - expo-dev-menu (56.0.11):
+    - expo-dev-menu/Main (= 56.0.11)
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -54,7 +54,7 @@ PODS:
     - ReactNativeDependencies
     - Yoga
   - expo-dev-menu-interface (56.0.1)
-  - expo-dev-menu/Main (56.0.10):
+  - expo-dev-menu/Main (56.0.11):
     - EXManifests
     - expo-dev-menu-interface
     - ExpoModulesCore
@@ -80,21 +80,21 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - ExpoAsset (56.0.10):
+  - ExpoAsset (56.0.11):
     - ExpoModulesCore
-  - ExpoBrownfield (56.0.10):
+  - ExpoBrownfield (56.0.11):
     - ExpoModulesCore
   - ExpoDevice (56.0.4):
     - ExpoModulesCore
   - ExpoDomWebView (56.0.5):
     - ExpoModulesCore
-  - ExpoFileSystem (56.0.5):
+  - ExpoFileSystem (56.0.6):
     - ExpoModulesCore
-  - ExpoFont (56.0.4):
+  - ExpoFont (56.0.5):
     - ExpoModulesCore
   - ExpoGlassEffect (56.0.4):
     - ExpoModulesCore
-  - ExpoImage (56.0.4):
+  - ExpoImage (56.0.5):
     - ExpoModulesCore
     - libavif/libdav1d
     - SDWebImage (~> 5.21.0)
@@ -105,9 +105,9 @@ PODS:
     - ExpoModulesCore
   - ExpoLinking (56.0.8):
     - ExpoModulesCore
-  - ExpoLogBox (56.0.10):
+  - ExpoLogBox (56.0.11):
     - React-Core
-  - ExpoModulesCore (56.0.9):
+  - ExpoModulesCore (56.0.10):
     - ExpoModulesJSI
     - hermes-engine
     - RCTRequired
@@ -131,25 +131,25 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - ExpoModulesJSI (56.0.5):
+  - ExpoModulesJSI (56.0.6):
     - React-Core
     - ReactCommon
-  - ExpoModulesWorklets (56.0.9):
+  - ExpoModulesWorklets (56.0.10):
     - ExpoModulesCore
     - ExpoModulesJSI
-  - ExpoModulesWorkletsAdapter (56.0.9):
+  - ExpoModulesWorkletsAdapter (56.0.10):
     - ExpoModulesCore
     - ExpoModulesJSI
     - ExpoModulesWorklets
     - RNWorklets
-  - ExpoRouter (56.2.1):
+  - ExpoRouter (56.2.2):
     - ExpoModulesCore
     - RNScreens
   - ExpoSymbols (56.0.5):
     - ExpoModulesCore
   - ExpoSystemUI (56.0.4):
     - ExpoModulesCore
-  - ExpoUI (56.0.8):
+  - ExpoUI (56.0.9):
     - ExpoModulesCore
     - ExpoModulesWorklets
     - React-RCTFabric
@@ -2658,31 +2658,31 @@ EXTERNAL SOURCES:
     :path: "../../../../node_modules/.pnpm/react-native@0.86.0-rc.1_@babel+core@7.29.0_@react-native+jest-preset@0.86.0-rc.1_@babe_4dd95e6e3a8eaf2c76ecb8b6bbb04a29/node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  EXConstants: 0f74de9c7691a6642097dcebba989924c9909c81
+  EXConstants: a8650a1522d5e567f1753a7ff30aa5627ffc89a6
   EXJSONUtils: dba2755f4e24009eaf87a876b2d615ea06c16e42
-  EXManifests: 67869a6d8efa7cb53a7b8b53f451d378c124073f
-  Expo: e87b92b3995136b5bdb3c7cfc66c02fd540797d7
-  expo-dev-menu: 47651f157f8d19ec887856e362b2ea2b207340b1
+  EXManifests: 7e19be8df665a338493060a419847dae76ffcd43
+  Expo: 54466e587b3b8d4b753c5e99d48c2a7b32ef3c48
+  expo-dev-menu: c3ea8416aa9d6f33aa676d55bc5c83d5adea8efc
   expo-dev-menu-interface: 65402d4affb8b418aa6cec29b3abb0e313c8f443
-  ExpoAsset: 6a8796be15348a3a4023116c3d76983161b12bad
-  ExpoBrownfield: 2a1b10be620a94ce4f8489bac9d1cd1cde242ea8
+  ExpoAsset: 0e16bd47ecbed3e6f4413f18c56be79fbe29b120
+  ExpoBrownfield: df6e359960d6b10a3b47677a0bb0816067626c61
   ExpoDevice: f527f8bbefa6efa12f8ef63e9038dd1d5d903697
   ExpoDomWebView: 27205be8754f9992913b8a9a08e65019f2207075
-  ExpoFileSystem: 5e5d77907c83546c795cfc1e9a726b26984967bd
-  ExpoFont: 8da4eb80ff054f10e01077daa6f5aefc37804688
+  ExpoFileSystem: 8a9155648a83de106cd233e51785fc749ae4bed1
+  ExpoFont: 6fe496f2be617ed4367f159f215dcc4ba27d37d6
   ExpoGlassEffect: 7d4233dc0727ee2b28dd757eda70e1b6abf662fd
-  ExpoImage: 59f71ed6d030241ffadead114064cfd01bd0dc12
+  ExpoImage: 8c9c81340ce59dd03190e29e856f78bbe07d7c98
   ExpoKeepAwake: 359c47a1d9ccc3a3c519bca6e39562cce230c5bb
   ExpoLinking: 16e9c6e222d8c47fc8e4922f9c35635b770c63fa
-  ExpoLogBox: 6e1ab3a1048a8a9305e7120465aa9214df57ef14
-  ExpoModulesCore: e5998b27484dc52a50d9463935357646d33da426
-  ExpoModulesJSI: cbbc6e69c19e02dc61ef5b27ee980c889b1d53ee
-  ExpoModulesWorklets: d9b2f831098274d8619da2a5741b0db9d16ee6fa
-  ExpoModulesWorkletsAdapter: 5bab50235fac1ceb7cde5d488893360f1ea14228
-  ExpoRouter: d2896e36bcd9daa6f8b11aade845c6d68df7a3e6
+  ExpoLogBox: ecf797402cec66c81ca37410f76673d3b86cd32b
+  ExpoModulesCore: 659d6e5db3115caa4ba6c463e9aac7682916a712
+  ExpoModulesJSI: b4bdc43846453c78c8656ca5371e345ad5f9cd37
+  ExpoModulesWorklets: 3cb8b517ea1012e3f0894edb4c12e60f82f24814
+  ExpoModulesWorkletsAdapter: 6398e0ed4251e57653c748543535cbadec4537a1
+  ExpoRouter: 9358a1349b5970da2e3d6ca33e83bf4d74f94e2e
   ExpoSymbols: f83c91f2897d37102b98b9224c603095630be9d0
   ExpoSystemUI: 6f9eddf66c31d074c402ba4a9e5cd2320edda37f
-  ExpoUI: c44553178d30423185cbdcba11e8dd9c563311e2
+  ExpoUI: 34a80d860814ad4ecc7bc9b0acdcab205b1649d9
   ExpoWebBrowser: fb9b5a94ebaa3483987f4acf4af6fd85c401df3e
   FBLazyVector: 54d3be2941b6b80c79f72a0eddcf3eca6a74acca
   hermes-engine: cc2c3e6e786d8b19f380a703bc23b5e935fbedfc
