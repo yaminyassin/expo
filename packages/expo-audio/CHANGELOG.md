@@ -6,6 +6,8 @@
 
 ### 🎉 New features
 
+- Support lockscreen controls with playlists. ([#46020](https://github.com/expo/expo/pull/46020) by [@alanjhughes](https://github.com/alanjhughes))
+
 ### 🐛 Bug fixes
 
 - [Android] Fix `RemoteServiceException` crash when the system starts `AudioControlsService` via `startForegroundService()`. ([#46147](https://github.com/expo/expo/pull/46147) by [@alanjhughes](https://github.com/alanjhughes))
