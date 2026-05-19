@@ -1,3 +1,4 @@
+export { type EventSubscription, type EventSubscription as Subscription } from 'expo-modules-core';
 /**
  * An event emitted when assets in the media library change.
  */

@@ -11,42 +11,42 @@ import type { AssetField, AssetFieldValueMap, SortDescriptor } from '../types';
 export declare class Query extends ExpoMediaLibraryNext.Query {
     /**
      * Filters assets where the specified field is equal to the given value.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - The value that the field should equal. Each field has a specific unique type.
      * @returns The updated query object for chaining.
      */
     eq<T extends AssetField>(field: T, value: AssetFieldValueMap[T]): Query;
     /**
      * Filters assets where the specified field's value is in the given array of values.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - An array of values that the field should match. Each field has a specific unique type.
      * @returns The updated query object for chaining.
      */
     within<T extends AssetField>(field: T, value: AssetFieldValueMap[T][]): Query;
     /**
      * Filters assets where the specified field is greater than the given value.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - The value that the field should be greater than.
      * @returns The updated query object for chaining.
      */
     gt(field: AssetField, value: number): Query;
     /**
      * Filters assets where the specified field is greater than or equal to the given value.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - The value that the field should be greater than or equal to.
      * @returns The updated query object for chaining.
      */
     gte(field: AssetField, value: number): Query;
     /**
      * Filters assets where the specified field is less than the given value.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - The value that the field should be less than.
      * @returns The updated query object for chaining.
      */
     lt(field: AssetField, value: number): Query;
     /**
      * Filters assets where the specified field is less than or equal to the given value.
-     * @param field - an {@link AssetField} to filter by.
+     * @param field - an [`AssetField`](#assetfield) to filter by.
      * @param value - The value that the field should be less than or equal to.
      * @returns The updated query object for chaining.
      */
@@ -77,7 +77,7 @@ export declare class Query extends ExpoMediaLibraryNext.Query {
     album(album: Album): Query;
     /**
      * Executes the query and retrieves the matching assets.
-     * @returns A promise that resolves to an array of {@link Asset} objects that match the query criteria.
+     * @returns A promise that resolves to an array of [`Asset`](#asset) objects that match the query criteria.
      *
      * @example
      * ```ts

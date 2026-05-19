@@ -1,7 +1,10 @@
-import type { PermissionHookOptions } from 'expo';
-
 export type GranularPermission = 'audio' | 'photo' | 'video';
 
 export type MediaTypeFilter = 'photo' | 'video';
 
-export type { PermissionHookOptions };
+export {
+  PermissionStatus,
+  type PermissionExpiration,
+  type PermissionHookOptions,
+  type PermissionResponse,
+} from 'expo';
