@@ -10,6 +10,8 @@
 
 ### 💡 Others
 
+- When caching take into account Authorization / auth-related request headers. ([#45995](https://github.com/expo/expo/pull/45995) by [@behenate](https://github.com/behenate))
+
 ## 56.1.1 — 2026-05-15
 
 ### 💡 Others
