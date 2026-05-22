@@ -1,9 +1,8 @@
 import { ThemeProvider } from 'ThemeProvider';
-import { ObserveRoot } from 'expo-observe';
+import { Observe, ObserveRoot } from 'expo-observe';
 import * as Splashscreen from 'expo-splash-screen';
 import React from 'react';
 import * as DevMenu from 'expo-dev-menu';
-import ExpoObserve from 'expo-observe';
 
 import MainNavigator, { optionalRequire } from './MainNavigator';
 
@@ -66,7 +65,7 @@ function useLoaded() {
   return isLoaded;
 }
 
-ExpoObserve.configure({
+Observe.configure({
   dispatchingEnabled: true,
   sampleRate: 0.9,
   integrations: {
