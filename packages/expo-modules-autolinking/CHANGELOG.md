@@ -8,6 +8,8 @@
 
 ### 🐛 Bug fixes
 
+- [iOS] Raise every autolinked Expo module's deployment target to at least `ExpoModulesCore`'s during `pod install`, so adapters whose podspecs declare a lower platform value no longer fail. ([#46175](https://github.com/expo/expo/pull/46175) by [@vonovak](https://github.com/vonovak))
+
 ### 💡 Others
 
 ## 56.0.11 — 2026-05-21
